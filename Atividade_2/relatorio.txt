@@ -1,0 +1,6 @@
+Relatório de compreensão do uso do RPC
+
+-O funcionamento diverge na questão da aplicação das funções
+No RPC o servidor tem remotamente uma função de obter_horario e permite a coneão através de IP e porta
+O cliente se conecta e apenas chama a execução da função no servidor e pede seu retorno, além disso, toda comunicação acontece através do RPC.
+Na comunicação padrão via Socket, precisávamos criar toda estrutura dessa comunicação, registrando envio, solicitação e resposta.
